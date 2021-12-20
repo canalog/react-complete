@@ -17,10 +17,10 @@ const ExpenseForm = (props) => {
     // setUserInput({
     //   ...userInput,
     //   enteredTitle: event.target.value,
-    // });
+    // }); -> sometimes wrong
     // setUserInput((prevState) => {
     //   return { ...prevState, enteredTitle: event.target.value };
-    // });
+    // }); -> should have function as parameter for keeping prev state
   };
   const amountChangeHandler = (event) => {
     setEnteredAmount(event.target.value);

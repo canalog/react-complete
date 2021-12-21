@@ -24,6 +24,7 @@ const NewExpense = (props) => {
   };
   return (
     <div className="new-expense">
+      {/* listen to lecture 67, 68, Assignment4 to understand conditional contents */}
       {!isEditing && (
         <button onClick={startEditingHandler}>Add New Expense</button>
       )}

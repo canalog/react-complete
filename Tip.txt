@@ -1,3 +1,5 @@
 1. Draw a diagram of components. // Really Important!
 2. Show what they render.
 3. Draw lines to find where props are states heading from and heading to.
+
++) Work with many projects! Even small ones!
